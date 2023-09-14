@@ -22,12 +22,11 @@ def D() :
     turtle.stamp()
     turtle.forward(50) 
 
-while(True) :
-    turtle.listen()
-    turtle.onkey(W, 'w')
-    turtle.onkey(A, 'a')
-    turtle.onkey(S, 's')
-    turtle.onkey(D, 'd')
-    turtle.onkey(turtle.reset, 'Escape')
+turtle.listen()
+turtle.onkey(W, 'w')
+turtle.onkey(A, 'a')
+turtle.onkey(S, 's')
+turtle.onkey(D, 'd')
+turtle.onkey(turtle.reset, 'Escape')
 
 turtle.exitonclick()
